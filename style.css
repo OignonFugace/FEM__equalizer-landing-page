@@ -260,6 +260,10 @@ p {
 
     /* PRODUCT SECTION */
     /* ILLUSTRATION */
+    .product-section {
+        margin: 0 auto;
+    }
+
     .product-section__illustration {
         margin-top: 15em;
         height: 600px;
