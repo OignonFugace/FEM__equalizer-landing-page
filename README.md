@@ -24,8 +24,8 @@ This is a solution to the Equalizer Landing Page challenge on [Frontend Mentor](
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [GitHub - OignonFugace/FEM__equalizer-landing-page](https://github.com/OignonFugace/FEM__equalizer-landing-page)
+- Live Site URL: [Frontend Mentor | Equalizer landing page](https://oignonfugace.github.io/FEM__equalizer-landing-page/)
 
 ## My process
 
