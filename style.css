@@ -209,6 +209,10 @@ p {
     margin-bottom: 64px;
 }
 
+.content__text {
+    margin-bottom: 64px;
+}
+
 .content__social-media-icons {
     display: flex;
     align-items: center;
@@ -316,6 +320,7 @@ p {
 
     .content__text {
         max-width: 400px;
+        margin-bottom: 0;
     }
 
     .content__social-media-icons {
