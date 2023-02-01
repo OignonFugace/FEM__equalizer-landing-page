@@ -103,6 +103,7 @@ p {
 /* PRODUCT SECTION */
 .product-section {
     position: relative;
+    margin: 0 calc((100% - 100vw)/2);
 }
 
 /* ILLUSTRATION */
