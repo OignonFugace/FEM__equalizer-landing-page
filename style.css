@@ -72,6 +72,7 @@ p {
 
 /* BUTTONS */
 .btn {
+    cursor: pointer;
     margin: 0 auto;
     border: none;
     border-radius: 12px;
@@ -175,11 +176,21 @@ p {
 .btn-ios-download {
     background-color: var(--color-dark);
     color: var(--color-light);
+    transition: .15s ease-in;
+}
+.btn-ios-download:hover, 
+.btn-ios-download:focus {
+    background-color: var(--color-cyan);
 }
 
 .btn-android-download {
     background-color: var(--color-light);
     color: var(--color-dark);
+    transition: .15s ease-in;
+}
+.btn-android-download:hover, 
+.btn-android-download:focus {
+    background-color: var(--color-yellow);
 }
 
 
@@ -205,6 +216,10 @@ p {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.content__social-media-icons a:hover, 
+.content__social-media-icons a:focus {
+    fill: var(--color-red);
 }
 
 
