@@ -176,7 +176,7 @@ p {
 .btn-ios-download {
     background-color: var(--color-dark);
     color: var(--color-light);
-    transition: .15s ease-in;
+    transition: .1s ease-in;
 }
 .btn-ios-download:hover, 
 .btn-ios-download:focus {
@@ -186,7 +186,7 @@ p {
 .btn-android-download {
     background-color: var(--color-light);
     color: var(--color-dark);
-    transition: .15s ease-in;
+    transition: .1s ease-in;
 }
 .btn-android-download:hover, 
 .btn-android-download:focus {
@@ -206,9 +206,6 @@ p {
 
 .footer__content {
     display: block;
-}
-
-.content__text {
     margin-bottom: 64px;
 }
 
@@ -220,6 +217,7 @@ p {
 .content__social-media-icons a:hover, 
 .content__social-media-icons a:focus {
     fill: var(--color-red);
+    transition: all .1s;
 }
 
 
@@ -312,6 +310,7 @@ p {
     .footer__content {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 2rem;
     }
 
