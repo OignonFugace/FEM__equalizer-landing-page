@@ -51,7 +51,7 @@ body {
     margin: 0 auto;
 }
 
-.container:not(.product-section__illustration) {
+.content-wrapper {
     margin: 0 24px;
 }
 
@@ -218,7 +218,7 @@ footer .site-logo {
         display: flex;
     }
 
-    .container {
+    .content-wrapper {
         margin: 0 39px;
     }
 
@@ -308,19 +308,12 @@ footer .site-logo {
         line-height: 34px;
     }
 
-    .container:not(.product-section__illustration) {
+    .content-wrapper {
         margin: 0 150px;
     }
 
     .product-section__illustration {
         margin-top: 15em;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-
-    .product-section__illustration .container{
-        margin-left: 150px;
-        margin-right: 150px;
     }
 
     .hero-section h1 {
