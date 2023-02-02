@@ -113,7 +113,7 @@ p {
 .product-section__illustration {
     background-color: var(--color-dark);
     background-image: url('./assets/img/bg-pattern-2.svg');
-    background-size: 280px 420px;
+    background-size: 280px;
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 10em;
@@ -375,18 +375,25 @@ p {
     
     /* PRODUCT SECTION */
     .product-section__illustration {
-        margin-top: 15em;
+        background-image: url('./assets/img/bg-pattern-2.svg');
+        background-size: 312px;
+        background-position: 38% -40px;
+        margin-top: 18em;
     }
 
     .product-section__illustration img {
         width: 280px;
+        height: auto;
+        margin-top: -12em;
+        margin-left: 10%;
     }
 
 
     /* CARD */
     .product-section__card {
         max-width: 446px;
-        margin-top: -520px;
+        margin-top: -510px;
+        margin-right: 13%;
         padding: 54px;
     }
 
