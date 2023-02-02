@@ -50,7 +50,7 @@
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: var(--color-light);
     background-image: url('./assets/img/bg-main-mobile.png');
     background-repeat: no-repeat;
     background-position: 9px -254px;
