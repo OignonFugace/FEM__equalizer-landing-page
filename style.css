@@ -27,6 +27,7 @@
     --color-cyan: #66e2dc;
     --color-red: #fa7453;
     --color-yellow: #ffb964;
+    --border-radius: 12px;
 }
 
 /* Mobile first approach */
@@ -63,7 +64,7 @@ h1, h2 {
 }
 
 p {
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 
 .inline-email {
@@ -75,16 +76,16 @@ p {
     cursor: pointer;
     margin: 0 auto;
     border: none;
-    border-radius: 12px;
+    border-radius: var(--border-radius);
     padding: 1em 2em;
     color: var(--color-dark);
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.1rem;
+    line-height: 2rem;
     font-weight: 700;
 }
 
 .btn-stack .btn + .btn {
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 
@@ -92,14 +93,14 @@ p {
 /* HEADER */
 .site-logo {
     margin: 2em 0;
-    height: 32px;
+    height: 2rem;
     width: auto;
 }
 
 /* HERO SECTION */
 .hero-section h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 2.5rem;
+    line-height: 3rem;
 }
 
 
@@ -117,8 +118,8 @@ p {
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 10em;
-    height: 600px;
-    border-radius: 12px;
+    height: 37.5rem;
+    border-radius: var(--border-radius);
     text-align: center;
 }
 
@@ -131,39 +132,39 @@ p {
 .product-section__card {
     position: relative;
     background-color: var(--color-red);
-    border-radius: 12px;
-    margin-top: -220px;
+    border-radius: var(--border-radius);
+    margin-top: -13.75rem;
     padding: 2.3em;
     color: var(--color-light);
 }
 
 .product-section__card h2 {
-    font-size: 32px;
+    font-size: 2rem;
     margin-top: 0;
 }
 
 .product-section__card p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 
 .card__price-section {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 
 .price-section__value {
     font-family: 'IBM Plex Sans';
     font-weight: 700;
-    font-size: 65px;
-    line-height: 52px;
+    font-size: 4rem;
+    line-height: 3.25rem;
 }
 
 .price-section__text {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 /* CARD BUTTONS */
@@ -171,7 +172,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     width: 100%;
 }
 
@@ -219,8 +220,11 @@ p {
 .content__social-media-icons {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
+/* .content__social-media-icons svg {
+    width: 3rem;
+} */
 .content__social-media-icons a:hover, 
 .content__social-media-icons a:focus {
     fill: var(--color-red);
@@ -269,13 +273,13 @@ p {
     }
 
     .hero-section h1 {
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 4rem;
+        line-height: 4rem;
     }
 
     .hero-section p {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     /* PRODUCT SECTION */
@@ -286,7 +290,6 @@ p {
 
     .product-section__illustration {
         margin-top: 15em;
-        height: 600px;
         text-align: left;
         background-position: center -31px;
     }
@@ -328,7 +331,6 @@ p {
 
     .content__social-media-icons {
         display: flex;
-        gap: 20px;
     }
 }
 
@@ -364,13 +366,13 @@ p {
     }
     
     .hero-section h1 {
-        font-size: 80px;
-        line-height: 88px;
+        font-size: 5rem;
+        line-height: 5.5rem;
     }
 
     .hero-section p {
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 1.25rem;
+        line-height: 2.125rem;
     }
     
     /* PRODUCT SECTION */
@@ -398,32 +400,18 @@ p {
     }
 
     .product-section__card h2 {
-        font-size: 40px;
-        line-height: 52px;
+        font-size: 2.5rem;
+        line-height: 3.25rem;
     }
 
     .product-section__card p {
-        font-size: 20px;
-        line-height: 34px;
-    }
-
-    .card__price-section {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        margin: 40px 0;
-    }
-
-    .price-section__value {
-        font-family: 'IBM Plex Sans';
-        font-weight: 700;
-        font-size: 65px;
-        line-height: 52px;
+        font-size: 1.25rem;
+        line-height: 2.125rem;
     }
 
     .price-section__text {
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 1.25rem;
+        line-height: 2rem;
     }
 
     /* FOOTER */
