@@ -255,7 +255,7 @@ p {
     }
 
     .content-wrapper {
-        margin: 0 39px;
+        margin: 0 6%;
     }
 
     /* HEADER */
@@ -265,7 +265,7 @@ p {
 
     /* HERO SECTION */
     .hero-section {
-        width: 514px;
+        max-width: 514px;
     }
 
     .hero-section h1 {
@@ -355,12 +355,12 @@ p {
     }
 
     .content-wrapper {
-        margin: 0 150px;
+        margin: 0 10%;
     }
 
     /* HERO SECTION */
     .hero-section {
-        width: 55%;
+        max-width: 80%;
     }
     
     .hero-section h1 {
